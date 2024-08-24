@@ -17,6 +17,7 @@ const App=()=>{
     <Table></Table>
     <Secondhead></Secondhead>
     */}
+    <Secondhead></Secondhead>
     <Image2></Image2>
     <Unorder></Unorder>
 
