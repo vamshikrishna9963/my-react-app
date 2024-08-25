@@ -7,19 +7,11 @@ import { Table,Table2 } from "./componets/table/table.jsx"
 const App=()=>{
   return(
     <>
-    {/* <Secondhead></Secondhead>
-    <Table></Table>
-    <List></List>
-    <Image2></Image2>
-    <Unorderlist></Unorderlist>
-    <Secondhead></Secondhead>
-
-    <Table></Table>
-    <Secondhead></Secondhead>
-    */}
+   
     <Secondhead></Secondhead>
     <Image2></Image2>
     <Unorder></Unorder>
+    <h1>version 1</h1>
 
 </>
   )
