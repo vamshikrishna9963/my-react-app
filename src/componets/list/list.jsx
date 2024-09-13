@@ -1,32 +1,42 @@
 
 
 
-const List=()=>{
+const List=(props)=>{
+    const {Items}=props;
 return(
 
-    <ul>
-       <Listitem></Listitem>
-    </ul>
+  <ul>
+    {
+    Items.map((EachFruit,index)=>{
+        return <li key={index}>{EachFruit}</li>
+    })
+}
+  </ul>
   
   
 )
 }
 export default List
-export const Unorderlist=()=>{
+export const OrderList=(prop)=>{
+    const {Order}=prop;
     return(
         <ol>
-       <Listitem></Listitem>
+       {
+        Order.map((EachItem,index)=>{
+            return( <li key={index}>{EachItem}</li>)
+        })
+       }
     </ol>
     )
 }
-const Listitem=()=>{
+// const Listitem=()=>{
 
-    return(
-        <>
-       <li>hello</li>
-       <li>vamshi</li>
-       <li>gopi</li>
-       <li>sunny</li>
-        </>
-    )
-}
+//     return(
+//         <>
+//        <li>hello</li>
+//        <li>vamshi</li>
+//        <li>gopi</li>
+//        <li>sunny</li>
+//         </>
+//     )
+// }

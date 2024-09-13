@@ -1,19 +1,45 @@
 import List from "./componets/list/list.jsx"
-import { Unorderlist as Unorder } from "./componets/list/list.jsx"
+import { OrderList } from "./componets/list/list.jsx"
 import { Mainhead ,Secondhead} from "./componets/headings/head.jsx"
-import { Image , Image2} from "./componets/image/img.jsx"
-import { Table,Table2 } from "./componets/table/table.jsx"
+import { CustomImage } from "./componets/image/img.jsx"
+// import { Table, } from "./componets/table/table.jsx"
+import { Button } from "./componets/button/button.jsx"
+import { Recipes } from "../data/recipe.js"
+import Greeting from "./componets/greetings/greeting.jsx"
+import Login from "./componets/login/login.jsx"
+import BootstrapCards from "./componets/bootstrap/custom-card.jsx"
+import Firstcomponent from "./componets/bootstrap/First-com.jsx"
+import VariantsExample from "./componets/bootstrap/drop.jsx"
+import UncontrolledExample from "./componets/bootstrap/carousal.jsx"
+import { CustomBall, CustomDNALoader, InfinityLoader } from "./componets/loder/loader.jsx"
+import YoutubeButton from "./componets/class-component/youtube-button.jsx"
+// import CustomToast from "./componets/toast/toast.jsx"
+import Subscribe from "./componets/class-component/subscribe.jsx"
+// import { SuccessToast } from "./componets/toast/toast.js"
+import { CustomToast } from "./componets/toast/toast.jsx"
+import { BallTriangle } from "react-loader-spinner"
+import RecipesList from "./componets/com-didmount/com-didmount.jsx"
+import FakeStore from "./componets/fake-catagiry/fakestore.jsx"
+import { AddCard } from "./componets/add-card/addcard.jsx"
+import { FailToast, SuccessToast } from "./componets/toast/toast.js"
+import { FechCategory } from "./componets/fake-catagiry/cat-wise-product.jsx"
+import { Parent } from "./componets/purecomponet/parent.jsx"
+// import CarouselBoot from "./componets/bootstrap/carousal.jsx"
 
 const App=()=>{
+
+  
   return(
     <>
-  <h1>this is version 1</h1>
-    <Secondhead></Secondhead>
-    <Image2></Image2>
-    <Unorder></Unorder>
+   
+{/* <FechCategory/> */}
+<Parent/>
 
-</>
-  )
+{
   
+}
+    </>
+
+  )
 }
 export default App

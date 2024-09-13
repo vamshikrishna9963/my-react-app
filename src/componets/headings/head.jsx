@@ -1,13 +1,23 @@
- export const Secondhead=()=>{
+//  import "./App.css"
+ 
+//  import 
+ 
+ export const Secondhead=(props)=>{
+    const {text}=props
     return(
-        <h2>APJ Abdul Kalam</h2>
+        <h2 style={{color:"red"}}>{text}</h2>
     )
 }
 export default Secondhead
 
-export const Mainhead=()=>{
+export const Mainhead=(props)=>{
+    const {Headings,children}=props
     return(
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque laborum iusto alias in ad assumenda consequuntur quidem quis, adipisci quia numquam eligendi ipsum tempore eaque molestias incidunt quae dolorem molestiae.</p>
+        <>
+          {children}
+        <h1 className="div1">{Headings}</h1>
+      
+        </>
     )
 }
 

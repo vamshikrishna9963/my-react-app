@@ -39,28 +39,15 @@ export const Table=()=>{
         </>
     )
 }
-export const Table2=()=>{
-return(
-<table border={2}>
-    {/* <tr>
-        <td> 
-        <img src="https://images.cnbctv18.com/wp-content/uploads/2020/10/APJ-Abdul-Kalam.jpg" alt="apj" width={300} height={200} />
 
-        </td>
-        
-    </tr>
-    <tr>
-        <td></td>
-    </tr> */}
-  
-</table>
-)
-}
+
 const Table3=()=>{
     return(
         <>
-        <td>hello</td>
-        <td>hi</td>
+        <td>vamshi</td>
+        <td>gopi</td>
+        <td>chintu</td>
+        <td>sunny</td>
         </>
     )
 }
