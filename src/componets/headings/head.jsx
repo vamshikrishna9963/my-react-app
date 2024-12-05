@@ -1,13 +1,26 @@
- export const Secondhead=()=>{
+//  import "./App.css"
+ 
+ import React from "react";
+ 
+ export const Secondhead=(props)=>{
+    console.log("heading/..................");
+
+    const {text}=props
     return(
-        <h2>APJ Abdul Kalam</h2>
+        <h2 style={{color:"red"}}>{text}</h2>
     )
 }
-export default Secondhead
+export default React.memo( Secondhead)
 
-export const Mainhead=()=>{
+export const Mainhead=(props)=>{
+    const {Headings,children}=props
+    
     return(
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque laborum iusto alias in ad assumenda consequuntur quidem quis, adipisci quia numquam eligendi ipsum tempore eaque molestias incidunt quae dolorem molestiae.</p>
+        <>
+          {children}
+        <h1 >{Headings}</h1>
+      
+        </>
     )
 }
 
