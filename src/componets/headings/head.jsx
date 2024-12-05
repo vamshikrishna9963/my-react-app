@@ -1,21 +1,24 @@
 //  import "./App.css"
  
-//  import 
+ import React from "react";
  
  export const Secondhead=(props)=>{
+    console.log("heading/..................");
+
     const {text}=props
     return(
         <h2 style={{color:"red"}}>{text}</h2>
     )
 }
-export default Secondhead
+export default React.memo( Secondhead)
 
 export const Mainhead=(props)=>{
     const {Headings,children}=props
+    
     return(
         <>
           {children}
-        <h1 className="div1">{Headings}</h1>
+        <h1 >{Headings}</h1>
       
         </>
     )

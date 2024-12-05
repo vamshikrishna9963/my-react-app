@@ -44,8 +44,8 @@ export class AddCard extends Component{
             <Button variant="danger" onClick={this.clickHandler} >Add card</Button>
             <Button variant="danger m-2" onClick={this.removeHandlerAll} >Remove All card</Button>
  
-            <div className="container m-5 ">
-            <div className="row">
+            <div className=" container m-5 ">
+            <div className=" row ">
             {
                 this.state.employee.length>0?
                 this.state.employee.map((each,index)=>{

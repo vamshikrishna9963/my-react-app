@@ -1,6 +1,6 @@
 import { Component } from "react";
 // import { < } from "./componets/button/button.jsx"
-import { Button } from "../button/button";
+import  CustomButton  from "../button/button";
 import axios from "axios";
 import { CustomDNALoader } from "../loder/loader";
 import { CustomImage } from "../image/img";
